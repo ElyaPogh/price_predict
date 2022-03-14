@@ -17,7 +17,7 @@ a deeper neural network can be trained or simply linear regression with addition
 would perform better.
 
 
-###About
+### About
 
 In the folder 'assets' 2 csv files can be found:
 - data_table.csv - the dataset is the csv form of the house_prices table connected from BigQuery
