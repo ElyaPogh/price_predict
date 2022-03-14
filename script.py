@@ -261,10 +261,4 @@ class Modeling():
         self.model_loaded = tf.keras.models.load_model(path)
         return self.model_loaded
 
-    def predict_model(self, data):
-        self.data = data
-        predictions = self.model.predict(self.data)
-        preds_list = [helpers.back_to_back(i, self.y) for i in predictions]
-        return preds_list
-
 
